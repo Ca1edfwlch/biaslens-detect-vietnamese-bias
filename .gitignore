@@ -1,21 +1,17 @@
-.venv/
-__pycache__/
-.ipynb_checkpoints/
+/dataset/raw/
+/dataset/processed/
+/dataset/raw_v2/*.json
+/dataset/processed_v2/
 
-checkpoints/
-outputs/
-tmp_trainer/
-smoke_out/
+/checkpoints/
+/outputs/
+/poster/
+/report/
+/test_cases/
 
-# Private VNFairness raw exports and the CSVs derived from them -- keep
-# dataset/raw_v2/README.md and dataset/metadata/category_mapping_v2.json
-# tracked (no sensitive content), everything else in these paths is data.
-dataset/raw_v2/*.json
-dataset/processed_v2/
+.env
+.env.*
+!.env.example
 
-*.pyc
-*.pyo
-*.pyd
-
-.DS_Store
-Thumbs.db
+/UI/node_modules/
+/UI/.next/
