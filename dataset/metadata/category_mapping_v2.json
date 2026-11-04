@@ -1,0 +1,16 @@
+{
+  "ageism": 0,
+  "appearance_body_shaming": 1,
+  "class_poverty_bias": 2,
+  "disability_health_bias": 3,
+  "educational_cognitive_hierarchy": 4,
+  "ethnic_minority_bias": 5,
+  "ideological_bias": 6,
+  "lgbtq_bias": 7,
+  "linguistic_hierarchical_bias": 8,
+  "moral_lifestyle_bias": 9,
+  "regional_bias": 10,
+  "religion": 11,
+  "sexism": 12,
+  "xenophobia": 13
+}

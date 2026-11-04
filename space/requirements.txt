@@ -1,0 +1,16 @@
+# Gradio 4.44 imports HfFolder, which huggingface_hub removed in v1.0.
+# Keep these paired so fresh Hugging Face Space rebuilds remain reproducible.
+gradio==4.44.0
+huggingface_hub==0.36.2
+# Gradio 4.44 still calls Starlette's legacy TemplateResponse(name, context)
+# API. Starlette 1.x removed it, causing the Space homepage to return 500
+# with "TypeError: unhashable type: 'dict'".
+fastapi==0.114.2
+starlette==0.38.6
+torch>=2.2
+transformers>=4.45,<5
+peft>=0.20
+accelerate>=1.0
+pandas>=2.2
+sentencepiece
+spaces==0.51.3

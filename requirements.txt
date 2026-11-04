@@ -1,0 +1,12 @@
+torch>=2.2
+transformers>=4.45
+datasets>=2.19
+scikit-learn>=1.4
+iterative-stratification>=0.1.9
+pandas>=2.2
+pyvi>=0.1.1
+fastapi>=0.110
+uvicorn>=0.29
+openai>=1.0
+peft>=0.20
+accelerate>=1.0
