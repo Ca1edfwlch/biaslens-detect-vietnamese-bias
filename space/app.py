@@ -207,7 +207,7 @@ with gr.Blocks(title="BiasLens") as demo:
         "1-5 severity scale. Paste a sentence below and run detection.\n\n"
         "LoRA-fine-tuned Qwen2.5-1.5B-Instruct, running on "
         "Hugging Face ZeroGPU (the first request may take longer while the model loads)"
-        + ". [Full project & writeup on GitHub](Ca1edfwlch/biaslens-detect-vietnamese-bias)."
+        + ". [Full project & writeup on GitHub](https://github.com/Ca1edfwlch/biaslens-detect-vietnamese-bias)."
     )
     text_input = gr.Textbox(label="Text to analyse", lines=3, placeholder="Paste Vietnamese or English text here...")
     submit_btn = gr.Button("Detect bias", variant="primary")
